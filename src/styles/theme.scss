@@ -1,0 +1,30 @@
+$color1: #9e8654;
+$color2: #d0c1a2;
+.theme-text-shadow {
+	background-image: linear-gradient(180deg, #9e8654 40%, #d0c1a2);
+	background-clip: text;
+	color: transparent;
+}
+u.theme-text-shadow {
+	border-bottom: 1px solid #d0c1a2;
+}
+.theme-text-gold {
+	// color: $color1;
+	background: linear-gradient(138deg, #e7d1a6 0%, #ccaa78 100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.theme-bg-gary {
+	background-color: rgba($color: #7d7d7d, $alpha: 0.32);
+}
+
+.theme-bg-gold ,
+.theme-button-gold {
+	background: linear-gradient(138deg, #e7d1a6 0%, #ccaa78 100%);
+	color: #fff;
+}
+.theme-button-gary {
+	background: #504f4f;
+	color: #fff;
+}

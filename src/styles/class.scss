@@ -1,0 +1,21 @@
+@mixin mixin-limit-max-width {
+	min-width: 1200px;
+	padding: 0 calc((100% - 1200px) / 2 + 30px);
+}
+
+.limit-max-width-media {
+	@media screen and (min-width: 1200px) {
+		@include mixin-limit-max-width;
+	}
+
+	@media screen and (max-width: 1199px) {
+		padding: 0 25px;
+	}
+}
+
+.bold {
+    font-weight: bold;
+}
+.text-center {
+    text-align: center;
+}

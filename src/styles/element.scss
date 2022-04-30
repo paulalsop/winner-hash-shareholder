@@ -1,0 +1,8 @@
+body.el-popup-parent--hidden {
+    @media screen and (max-width: 768px) {
+        padding-right: 0 !important;
+    }
+}
+.el-message {
+	max-width: 100%;
+}
