@@ -2,6 +2,7 @@ const path = require('path')
 module.exports = {
 	lintOnSave: true,
 	publicPath: './', // 基本路径
+    outputDir: 'winner_hash_shareholder_dist', // 输出文件目录
 	css: {
 		requireModuleExtension: true,
 		sourceMap: process.env.NODE_ENV == 'development' ? true : false,
